@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "magiclist",
+    "slug": "magiclist",
+    "version": "1.0.0",
+    "scheme": "magiclist-scheme",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "hermes": true,
+    "ios": {
+      "supportsTablet": true,
+      "hermes": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "hermes": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
